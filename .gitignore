@@ -1,0 +1,19 @@
+# Environnement virtuel
+venv/
+env/
+
+# Fichiers Python générés
+__pycache__/
+*.pyc
+
+# Modèle dlib volumineux (~95 Mo) — à télécharger séparément, voir README
+*.dat
+
+# Base de données locale (générée à l'exécution)
+attendance.db
+
+# Photos de référence des personnes (données personnelles/sensibles)
+ImagesAttendance/
+
+# Fichiers Windows
+Thumbs.db
